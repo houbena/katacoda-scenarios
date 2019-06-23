@@ -1,18 +1,19 @@
 {
   "title": "Building Images with Dockerfiles",
   "description": "Build your first Container image",
+  "time": "10-15 minutes",
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Writing the Dockerfile",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Building the image",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Running a container",
         "text": "step3.md"
       }
     ],
