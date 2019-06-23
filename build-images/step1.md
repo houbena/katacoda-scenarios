@@ -1,4 +1,8 @@
-1. Create an empty directory `myDir`, and `cd` into it:
+The first step consists of writing a Dockerfile, that we will use later to build our container image.
+
+1. It's a best practice to create your Dockerfile inside an empty directory then copy into it only what the build needs.
+	
+	So let's start by creating a folder `myDir`, and `cd` into it:
 
 	`mkdir myDir; cd myDir`{{execute}}
 
@@ -6,7 +10,7 @@
 	
 	`touch Dockerfile`{{execute}}
 
-	Hit the keyboard `a` to start editing.
+	In the editor view, click on `myDir` to expand its content, then click on `Dockerfile` to open it. 
 
 	Paste following content to the Dockerfile: 
 
@@ -15,12 +19,10 @@
 	RUN apt-get update && apt-get install -y iputils-ping 
 	CMD ping -c 5 8.8.8.8
 	</pre>
-
-	To save the file, hit `ESC`, then type `:x` and hit `Enter`.
 	
 	> Question: Looking at this Dockerfile, what will be the base image of our final image?
 	
-	If you say it's `Ubuntu`, you got it right. And if you guessed the `latest` tag, you're even righter. You can see tags as versions. Since we didn't specify any tag after the image name, `latest` is picked. Don't worry if you never heard of *tags*, we will talk about this image property in a more advanced topic.
+	If you say: it's `Ubuntu`! You got it right. And if you guessed the `latest` tag, you're even righter. You can see tags as versions. Since we didn't specify any tag after the image name, `latest` is picked. Don't worry if you never heard of *tags*, we will talk about this image property in a more advanced topic.
 
 	The second line of the Dockerfile will execute an update of `apt-get`, the package manager, then install the ping tool.
 	
