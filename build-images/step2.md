@@ -1,5 +1,3 @@
-## Build the image
-
 1. While inside the `myDir` folder, run following command:
 
 	```

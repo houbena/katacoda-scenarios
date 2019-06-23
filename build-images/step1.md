@@ -1,5 +1,3 @@
-## Writing the Dockerfile
-
 1. Create an empty directory `myDir`, and `cd` into it:
 
 	`mkdir myDir; cd myDir`{{execute}}
