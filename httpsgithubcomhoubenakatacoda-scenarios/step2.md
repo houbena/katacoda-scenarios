@@ -14,7 +14,7 @@
 	
 	If everything goes fine, you should see `Successfully tagged mypinger:latest` at the end of the output, in addition to the time taken by the build process.
 	
-2. Now run the same build command again, and notive how fast is the build!
+2. Now run the same build command again, and notice how fast is the build!
 
 	Comapre the time of the first build attempt with the second one.
 	
