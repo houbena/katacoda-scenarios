@@ -10,7 +10,7 @@
 	FROM ubuntu
 	RUN apt-get update && apt-get install -y iputils-ping 
 	CMD ping -c 5 8.8.8.8
-	```
+	````{{execute}}
 	
 	> Question: Looking at this Dockerfile, what will be the base image of our final image?
 	
