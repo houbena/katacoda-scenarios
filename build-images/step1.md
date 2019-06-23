@@ -10,11 +10,11 @@
 
 	Paste following content to the Dockerfile: 
 
-	```
+	<pre class="file" data-filename="Dockerfile" data-target="replace">
 	FROM ubuntu
 	RUN apt-get update && apt-get install -y iputils-ping 
 	CMD ping -c 5 8.8.8.8
-	```{{copy}}
+	</pre>
 
 	To save the file, hit `ESC`, then type `:x` and hit `Enter`.
 	
