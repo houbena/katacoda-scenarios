@@ -4,13 +4,21 @@
 
 	`mkdir myDir; cd myDir`{{execute}}
 
-2. Create a file `Dockerfile` (with `D` uppercase), and paste following content:
+2. Create a file `Dockerfile`:
+	
+	`vi Dockerfile`{{execute}}
+
+	Hit the keyboard `a` to start editing.
+
+	Paste following content to the Dockerfile: 
 
 	```
 	FROM ubuntu
 	RUN apt-get update && apt-get install -y iputils-ping 
 	CMD ping -c 5 8.8.8.8
-	````{{execute}}
+	```{{execute}}
+
+	To save the file, hit `ESC`, then type `:x` and hit `Enter`.
 	
 	> Question: Looking at this Dockerfile, what will be the base image of our final image?
 	
