@@ -1,6 +1,6 @@
 {
-  "title": "build-images",
-  "description": "Building container images with Dockerfiles",
+  "title": "Building Images with Dockerfiles",
+  "description": "Build your first Container image",
   "details": {
     "steps": [
       {
