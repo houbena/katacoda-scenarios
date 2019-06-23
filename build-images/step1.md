@@ -4,7 +4,7 @@
 
 2. Create a file `Dockerfile`:
 	
-	`vi Dockerfile`{{execute}}
+	`touch Dockerfile`{{execute}}
 
 	Hit the keyboard `a` to start editing.
 
@@ -14,7 +14,7 @@
 	FROM ubuntu
 	RUN apt-get update && apt-get install -y iputils-ping 
 	CMD ping -c 5 8.8.8.8
-	```{{execute}}
+	```{{copy}}
 
 	To save the file, hit `ESC`, then type `:x` and hit `Enter`.
 	
