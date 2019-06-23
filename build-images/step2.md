@@ -1,3 +1,5 @@
+Now that we have a Dockerfile, you will build your first image.
+
 1. While inside the `myDir` folder, run following command:
 
 	```
